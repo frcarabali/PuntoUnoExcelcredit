@@ -33,12 +33,12 @@ public class exercise1 {
 					}
 				}
 			}	
-			System.out.println("1. Integer numbers: "+n);
-			System.out.println("3. pair numbers: "+impair);
+			System.out.println("1. Numeros enteros: "+n);
+			System.out.println("3. Numeros pares: "+impair);
 			
 			for (int j=0; j<impair.length(); j++ ) {
 				sum += Integer.parseInt(String.valueOf(impair.charAt(j)));
 			}
-			System.out.println("4. sum number: "+sum);
+			System.out.println("4. Suma numeros: "+sum);
 	}
 }
